@@ -1,4 +1,4 @@
-# Chapter 6. 객체와 자료 구조
+# Chapter 6. 객체와 자료 구조(Objects and Data Structures)
 
 아래 두 클래스를 비교해 보자
 
@@ -290,7 +290,7 @@ case class Number (n: Int) extends Expr
 case class Sum(el: Expr, e2: Expr) extends Expr
 
 def eval(e: Expr): Int = e match {
-  case Number(n) => n // e instanceof Number
+  case Number(n) => n // if e instanceof Number
   case Sum(el, e2) => eval(el) + eval(e2)
 }
 ```

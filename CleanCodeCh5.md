@@ -1,4 +1,4 @@
-# Chapter 5. 형식 맞추기
+# Chapter 5. 형식 맞추기(Formatting)
 
 ## 목적
 
